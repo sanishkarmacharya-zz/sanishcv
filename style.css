@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: #f1f1f1;
+  color: #4a4a4a;
+  font-family: sans-serif;
+}
+
+.title{
+  text-align: center;
+}
+
+section{
+  padding: 15px 40px;
+  position: relative;
+}
+
+.img-block {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.group{
+  display: block;
+  padding: 15px 15px;
+}
+
+.group label {
+  width: 120px;
+  display: inline-block;
+  font-weight: bold;
+}

@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: #f1f1f1;
+  color: #4a4a4a;
+  font-family: sans-serif;
+}
+
+.title{
+  text-align: center;
+}
+section {
+  padding: 15px 15px;
+  position: relative;
+}
+
+.sub-title{
+  font-size: 18px;
+  border-bottom: 1px solid #666666;
+  padding: 0 0 5px 0;
+}
+
+.group{
+  padding: 15px 8px;
+}
+
+.group.group-odd{
+  padding: 5px;
+  background: #fff;
+}
+
+.group label{
+  display: inline-block;
+  width: 140px;
+  font-weight: bold;
+}
+
+.group .info{
+  font-weight: normal;
+  color: #777;
+}
+
+#image{
+  position: absolute;
+  right: 0;
+  top: 15px;
+  border-radius: 50%;
+}
+
+table tr{
+  padding: 10px 10px;
+}
